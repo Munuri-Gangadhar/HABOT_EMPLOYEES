@@ -37,7 +37,15 @@ Habot is a Django-based application designed for managing employee records. This
 
 2. Create a virtual environment:
 
-  python -m venv venv
-  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+ ```bash
+   python -m venv venv
+   source venv/bin/activate  
+
+
+3. Install the required packages:
+
+  ```bash
+    pip install -r requirements.txt
+
 
 
